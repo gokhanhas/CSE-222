@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="70.22727272727275" y="0.0">Experiment</node>
+    <node x="51.17045454545456" y="459.0">ExperimentList</node>
+    <node x="173.08333333333337" y="959.0">TestDeriveredClass</node>
+    <node x="174.58333333333337" y="1083.0">TestMain</node>
+    <node x="0.0" y="268.0">ExperimentList.ExperimentNode</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="TestDeriveredClass" target="Experiment">
+      <point x="63.75" y="-37.0" />
+      <point x="321.83333333333337" y="934.0" />
+      <point x="319.67045454545456" y="934.0" />
+      <point x="319.67045454545456" y="248.0" />
+      <point x="345.22727272727275" y="248.0" />
+      <point x="125.0" y="104.0" />
+    </edge>
+    <edge source="ExperimentList" target="ExperimentList.ExperimentNode">
+      <point x="-61.75" y="-225.0" />
+      <point x="112.92045454545456" y="439.0" />
+      <point x="95.25" y="439.0" />
+      <point x="-31.75" y="70.5" />
+    </edge>
+    <edge source="TestDeriveredClass" target="ExperimentList">
+      <point x="-21.25" y="-37.0" />
+      <point x="61.75" y="225.0" />
+    </edge>
+    <edge source="ExperimentList.ExperimentNode" target="Experiment">
+      <point x="-63.5" y="-70.5" />
+      <point x="63.5" y="248.0" />
+      <point x="95.22727272727275" y="248.0" />
+      <point x="-125.0" y="104.0" />
+    </edge>
+    <edge source="ExperimentList" target="Experiment">
+      <point x="102.91666666666669" y="-225.0" />
+      <point x="277.58712121212125" y="439.0" />
+      <point x="284.8068181818182" y="439.0" />
+      <point x="284.8068181818182" y="228.0" />
+      <point x="245.22727272727275" y="228.0" />
+      <point x="25.0" y="104.0" />
+    </edge>
+    <edge source="ExperimentList.ExperimentNode" target="ExperimentList">
+      <point x="95.25" y="70.5" />
+      <point x="222.25" y="439.0" />
+      <point x="195.25378787878788" y="439.0" />
+      <point x="20.583333333333314" y="-225.0" />
+    </edge>
+    <edge source="TestMain" target="TestDeriveredClass">
+      <point x="-41.75" y="-26.0" />
+      <point x="-42.5" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hıerarchıc Group" zoom="1.0" x="229.5" y="271.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,1 @@
+HW01 and HW07 do not code homeworks.
